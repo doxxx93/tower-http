@@ -12,8 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `decompression`: re-enable `multiple_members` on the gzip decoder, so responses carrying
   concatenated gzip members decode in full again. This reverts the decoder change in ([#621]),
   which is no longer needed now that an impossible member header is rejected as soon as the bytes
-  contradict it (async-compression 0.4.48). The minimum `async-compression` requirement is now
-  0.4.48 ([#738])
+  contradict it (async-compression 0.4.48) ([#738])
 
 [#738]: https://github.com/tower-rs/tower-http/pull/738
 
