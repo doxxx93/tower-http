@@ -21,7 +21,7 @@ tower-layer = "0.3.3"
 tower-service = "0.3"
 
 # optional dependencies
-async-compression = { version = "0.4", optional = true, features = ["tokio"] }
+async-compression = { version = "0.4.48", optional = true, features = ["tokio"] }
 base64 = { version = "0.22", optional = true }
 futures-core = { version = "0.3", optional = true, default-features = false }
 futures-util = { version = "0.3.14", optional = true, default-features = false }
